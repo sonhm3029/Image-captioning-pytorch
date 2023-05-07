@@ -54,7 +54,11 @@ BLEU đánh giá một câu thông qua so khớp giữa câu đó và câu mẫu
 
 Cách tính của BLEU là đếm số n-gram khớp nhau giữa câu mẫu (R) và câu được đánh giá (C) sau đó chia cho số token của C. Việc chọn n phụ thuộc vào ngôn ngữ, nhiệm vụ và mục tiêu cụ thể. Đơn giản nhất là unigram là n-gram chứa 1 token (n=1), bigram (n=2), trigram (n=3). Một cách trực quan, n càng lớn, câu văn càng mượt.
 
+## Implementation
 
+Google colab: [Image captioning](https://colab.research.google.com/drive/1Jt2LruyRfHwZP4fzaNcYpE6hg2PcA3ia)
+
+Dataset: [Flickr8k Dataset](https://academictorrents.com/details/9dea07ba660a722ae1008c4c8afdd303b6f6e53b)
 
 ## References
 
